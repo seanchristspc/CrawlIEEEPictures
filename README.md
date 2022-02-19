@@ -31,7 +31,7 @@ pip install selenium re os requests time
 来获取IEEE文章的内容。采用的selenium来驱动浏览器。因此需要安装浏览器驱动。
 安装请参考[selenium Browser Drivers](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/)。
 注意驱动和浏览器版本要匹配。 简单的来说，不要太新也不要太久的浏览器，应该是能良好支持的。
-驱动程序的路径添加到系统环境变量中。
+驱动程序的路径添加到系统环境变量中。浏览器选择Firefox或Chrome, 其他不推荐。
 
 ### 爬虫程序文件说明
 
@@ -52,7 +52,7 @@ pip install selenium re os requests time
 python3 IEEE_crawl_pictures_3.py
 ```
 
-2. 输入IEEE论文网址  例如：https://ieeexplore.ieee.org/document/7500038
+2. 输入IEEE论文网址  例如：`https://ieeexplore.ieee.org/document/7500038`
 
 3. 自动打开火狐浏览器，并打开IEEE论文网页，喝杯小茶等待等待.....
 自动创建以论文名的文件夹，其中包含论文的图片，并以论文中图名命名
